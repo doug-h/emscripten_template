@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>WebGL Demo</title>
+
+    <script src="emscripten.js" defer></script>
+    <script src="main.js" defer></script>
+    <style>
+body {
+  background: '#000';
+  margin: 0;
+}
+    </style>
+  </head>
+
+  <body>
+    <div id="gameContainer" style="position: absolute;">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" tabindex="-1"></canvas>
+    </div>
+  </body>
+
+</html>
